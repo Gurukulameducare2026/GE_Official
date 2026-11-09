@@ -1,0 +1,478 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gurukulam Educare | Learn and Grow</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <h2>Gurukulam <span>Educare</span></h2>
+            <small>Learn Today, Lead Tomorrow</small>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#why-us">Why Choose Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <a href="#contact" class="nav-btn">Join Now</a>
+
+        <div class="menu-icon" id="menuIcon">☰</div>
+
+    </nav>
+</header>
+
+
+<!-- HOME SECTION -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <p class="welcome">WELCOME TO GURUKULAM EDUCARE</p>
+
+        <h1>
+            Education That
+            <span>Inspires</span>
+            Your Future
+        </h1>
+
+        <p>
+            Discover your talents, develop new skills and
+            achieve your dreams with Gurukulam Educare.
+            Quality education made accessible to everyone.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#courses" class="primary-btn">Explore Courses</a>
+            <a href="#about" class="secondary-btn">Learn More</a>
+        </div>
+
+    </div>
+
+    <div class="hero-image">
+        <img src="https://cms-resources.prd.timeshighereducation.com/sites/default/files/styles/featured_image/public/2025-10/iStock-2166018576.jpg?h=e7c46244&itok=r9NJRgW7">
+    </div>
+
+</section>
+
+<!-- Student Reviews -->
+<section class="reviews section" id="reviews">
+
+    <div class="section-heading">
+        <p>STUDENT FEEDBACK</p>
+        <h2>What Our Student Say</h2>
+    </div>
+
+    <div class="rating-summary">
+        <h2 id="average-rating">0.0 ⭐</h2>
+        <p id="rating-count">No ratings yet</p>
+    </div>
+
+    <div class="review-form">
+        <h3>Rate Your Learning Experience</h3>
+
+        <input type="text" id="customer-name"
+               placeholder="Enter your name">
+
+        <div class="star-rating" id="star-rating">
+            <span data-value="1">★</span>
+            <span data-value="2">★</span>
+            <span data-value="3">★</span>
+            <span data-value="4">★</span>
+            <span data-value="5">★</span>
+        </div>
+
+        <textarea id="review-message"
+                  placeholder="Write your feedback..."></textarea>
+
+        <button onclick="submitReview()" class="add-btn">
+            Submit Review
+        </button>
+    </div>
+
+    <div class="review-list" id="review-list">
+    </div>
+
+</section>
+
+
+<!-- STATISTICS -->
+
+<section class="stats">
+
+    <div>
+        <h2>20+</h2>
+        <p>Course Options</p>
+    </div>
+
+    <div>
+        <h2>100%</h2>
+        <p>Learning Support</p>
+    </div>
+
+    <div>
+        <h2>Online</h2>
+        <p>Learning Facility</p>
+    </div>
+
+    <div>
+        <h2>All Ages</h2>
+        <p>Learning Opportunities</p>
+    </div>
+
+</section>
+
+
+<!-- ABOUT SECTION -->
+
+<section class="about section" id="about">
+
+
+    <div class="about-content">
+
+        <p class="section-label">ABOUT OUR INSTITUTION</p>
+
+        <h2>Welcome to <span>Gurukulam Educare</span></h2>
+
+        <p>
+            Gurukulam Educare is an educational institution
+            dedicated to providing quality learning
+            opportunities in academic and non-academic fields.
+        </p>
+
+        <p>
+            We offer a variety of courses designed to improve
+            knowledge, creativity, communication and practical
+            skills. Our aim is to make education affordable
+            and accessible to everyone.
+        </p>
+
+        <ul>
+            <li>✓ Experienced Teachers</li>
+            <li>✓ Individual and Batch classes</li>
+            <li>✓ Affordable Course Fees</li>
+            <li>✓ Online Learning Facilities</li>
+            <li>✓ Personal Learning Support</li>
+        </ul>
+
+        <a href="#contact" class="primary-btn">Get Started</a>
+
+    </div>
+
+</section>
+
+
+<!-- COURSES SECTION -->
+
+<section class="courses section" id="courses">
+
+    <div class="section-heading">
+
+        <p class="section-label">WHAT WE OFFER</p>
+
+        <h2>Explore Our <span>Courses</span></h2>
+
+        <p>
+            Learn something new and develop your skills
+            with our wide range of courses.
+        </p>
+
+    </div>
+
+  <div class="course-card">
+            <div class="course-icon">📐</div>
+            <h3>Academic Courses</h3>
+            <ul>
+                <li>KG - Plus Two(Kerala,CBSE & ICSE)</li>
+                <li>NIOS Classes</li>
+                <li>Scholarship Exam Coaching</li>
+                <li>NEET & JEE Foundation classes</li>
+            </ul>
+            <a href="#contact">Enquire Now →</a>
+        </div>
+
+    <div class="course-card">
+            <div class="course-icon">📚</div>
+            <h3>Language Courses</h3>
+            <ul>
+                <li>Spoken English</li>
+                <li>English Grammar & Communication</li>
+                <li>French Language Course</li>
+                <li>German Language Course</li>
+                <li>Korean Language Course</li>
+                <li>Arabic Basics</li>
+                <li>Hindi Classes</li>
+                <li>Reading & Writing Skills</li>
+                <li>Cursive Writing</li>
+                <li>English Calligraphy</li>
+            </ul>
+        </div>
+
+  <div class="course-card">
+            <div class="course-icon">💻</div>
+            <h3>Computer Courses</h3>
+                <ul>
+                <li>Computer Basics</li>
+                <li>MS Office</li>
+                <li>Programming Languages</li>
+                <li>English & Malayalam Typing</li>
+                <li>Basics of Graphic Designing</li>
+                <li>Coding for Kids</li>
+                <li>Canva Designing</li>
+                <li>Other Computer Courses</li>
+            </ul>
+        </div>
+
+    <div class="course-card">
+            <div class="course-icon">🧶</div>
+            <h3>Art & Creativity Courses</h3>
+            <ul>
+                <li>Drawing & Painting</li>
+                <li>Pencil Drawing & Colouring</li>
+                <li>Crochet</li>
+                <li>Mandala Art</li>
+                <li>Doodle Art</li>
+                <li>Paper Craft</li>
+                <li>Quilling Art</li>
+                <li>Clay Modelling</li>
+                <li>Bottle Art</li>
+                <li>Pipe Cleaner Art</li>
+                <li>Art & Craft</li>
+                <li>Jewellery Making</li>
+                <li>Hair Accessories Making</li>
+                <li>Jasmine Flower Making</li>
+                <li>Gift Hamper Making</li>
+                <li>Bouquet Making</li>
+                <li>Princess Gown Making & Designing</li>
+            </ul>
+            <a href="#contact">Enquire Now →</a>
+        </div>
+
+        <div class="course-card">
+            <div class="course-icon">💅</div>
+            <h3>Handwork,Beauty & Fashion Courses</h3>
+            <ul>
+                <li>Mehndi Design</li>
+                <li>Mehndi Cone Making</li>
+                <li>Embroidery Work</li>
+                <li>Sewing & Tailoring</li>
+                <li>Cake Making & Baking</li>
+                <li>Makeup Class</li>
+            </ul>
+            <a href="#contact">Enquire Now →</a>
+        </div>
+
+        <div class="course-card">
+            <div class="course-icon">🏆</div>
+            <h3>Skill Development Courses</h3>
+            <ul>
+                <li>Abacus</li>
+                <li>Chess</li>
+                <li>Mentalism</li>
+                <li>Public Speaking</li>
+                <li>Personality Development</li>
+                <li>Handwriting Improvement</li>
+            </ul>
+            <a href="#contact">Enquire Now →</a>
+        </div>
+
+      <div class="course-card">
+            <div class="course-icon">🏫</div>
+            <h3>Religious & Moral Education Courses</h3>
+            <ul>
+                <li>Madrasa revision</li>
+                <li>Quran & Tajweed classes</li>
+                <li>Islamic Studies</li>
+                <li>Mahabharatham stories</li>
+                <li>Holly Bible stories</li>
+                <li>Moral stories & Value Education</li>
+            </ul>
+            <a href="#contact">Enquire Now →</a>
+        </div>
+
+        <div class="course-card">
+            <div class="course-icon">🕺</div>
+            <h3>Dance & Fitness Courses</h3>
+            <ul>
+                <li>Cinematic Dance</li>
+                <li>Classical Dance</li>
+                <li>Zumba Classes</li>
+                <li>Recitation & Stage Performance Training</li>
+            </ul>
+            <a href="#contact">Enquire Now →</a>
+        </div>
+<div class="course-card">
+            <div class="course-icon">⭐</div>
+            <h3>Special Courses</h3>
+            <ul>
+                <li>Vacation Camps</li>
+                <li>Summer Courses</li>
+                <li>Special Skill Development Programs</li>
+            </ul>
+    </div>
+
+</section>
+
+
+<!-- WHY CHOOSE US -->
+
+<section class="why-us section" id="why-us">
+
+    <div class="section-heading">
+
+        <p class="section-label">OUR ADVANTAGES</p>
+
+        <h2>Why Choose <span>Gurukulam?</span></h2>
+
+    </div>
+
+    <div class="features">
+
+        <div class="feature-box">
+            <div>👩‍🏫</div>
+            <h3>Experienced Teachers</h3>
+            <p>Learn from dedicated and experienced educators.</p>
+        </div>
+
+        <div class="feature-box">
+            <div>💰</div>
+            <h3>Affordable Fees</h3>
+            <p>Quality education at budget-friendly prices.</p>
+        </div>
+
+        <div class="feature-box">
+            <div>💻</div>
+            <h3>Online Classes</h3>
+            <p>Learn from anywhere with flexible online learning.</p>
+        </div>
+
+        <div class="feature-box">
+            <div>🌟</div>
+            <h3>Skill Development</h3>
+            <p>Improve your knowledge, creativity and confidence.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT SECTION -->
+
+<section class="contact section" id="contact">
+
+    <div class="section-heading">
+
+        <p class="section-label">GET IN TOUCH</p>
+
+        <h2>Start Your Learning <span>Journey</span></h2>
+
+        <p>Interested in joining our courses? Contact us today.</p>
+
+    </div>
+
+    <div class="contact-container">
+
+        <div class="contact-info">
+
+            <h3>Contact Information</h3>
+
+         <p><b>Abshar & Irfana (FOUNDERS)</b></p>
+
+            <p>📞 +91 90375 35673</p>
+
+          <p>📩  gurukulameducare661@gmail.com</p>
+
+            <p>📍 Malappuram, Kerala, India</p>
+
+            <p>🎓 Gurukulam Educare</p>
+
+            <a href="https://wa.me/919037535673"
+               target="_blank"
+               class="whatsapp-btn">
+               Chat on WhatsApp
+            </a>
+
+        </div>
+
+
+        <form id="enquiryForm">
+
+            <input type="text" id="name"
+                   placeholder="Your Name" required>
+
+            <input type="tel" id="phone"
+                   placeholder="Phone Number"
+                   pattern="[0-9]{10}" required>
+
+            <input type="email" id="email"
+                   placeholder="Email Address" required>
+
+            <select id="course" required>
+                <option value="">Select a Course</option>
+                <option>Language Courses</option>
+                <option>Foreign Languages</option>
+                <option>Academic Courses</option>
+                <option>Art & Creativity</option>
+                <option>Craft & Designing</option>
+                <option>Special Craft Courses</option>
+            </select>
+
+            <textarea id="message"
+                      placeholder="Your Message"></textarea>
+
+            <button type="submit" class="primary-btn">
+                Submit Enquiry
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <h2>Gurukulam <span>Educare</span></h2>
+
+    <p>Learn Today, Lead Tomorrow.</p>
+
+    <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <p class="copyright">
+        © 2026 Gurukulam Educare. All Rights Reserved.
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
